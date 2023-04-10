@@ -31,7 +31,7 @@ export const Experience = [
   },
   {
     id: 3,
-    date: "2012 - 2014",
+    date: " JAN 2020 - DEC 2022",
     iconsSrc: <IoCodeWorking />,
     title: "CUSTOMER SERVICE/GTBANK",
     location: "LAGOS, NIGERIA",

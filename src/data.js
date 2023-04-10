@@ -46,15 +46,15 @@ export const Projects = [
     id: 1,
     name: "Smooze Music",
     imageSrc: img1,
-    techs: "React,Typescript, ContextApi, React Icon, Postgres",
+    techs: "ReactJs,Typescript, ContextApi, React Icon, Postgres",
     github: "https://smooze.netlify.app/",
   },
   {
     id: 2,
-    name: "Full Stack Social Media App ",
+    name: "Ecommerce App ",
     imageSrc: img2,
     techs: "React Js, Sanity, Tailwind CSS",
-    github: "#",
+    github: "https://faithy-store.netlify.app/",
   },
   {
     id: 3,

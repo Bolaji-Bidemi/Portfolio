@@ -107,14 +107,14 @@ function App() {
           </div>
         </nav>
 
-        <div className="relative" id="home">
+        {/* <div className="relative" id="home">
           <Spline scene="https://prod.spline.design/oo6IxFu8UDjFUmjD/scene.spline" />
           <div className="absolute bottom-10 w-full flex justify-center items-center">
             <div className="shadow-md p-4 flex items-center justify-center bg-zinc-900 rounded-3xl ">
               <p className="text-white">Press and drag to orbit</p>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <main className="w-[80%] mt-4">
           <section

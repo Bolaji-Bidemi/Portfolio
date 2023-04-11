@@ -22,7 +22,7 @@ export const Experience = [
   },
   {
     id: 2,
-    date: "JAN 2022 - AUG 2022",
+    date: "JAN 2022 - MAR 2022",
     iconsSrc: <IoCodeWorking />,
     title: "FRONTEND INTERN/HOPEWELL ENGINEERING COMPANY. ",
     location: "LAGOS, NIGERIA",

@@ -8,7 +8,7 @@ import {
 } from "react-icons/io5";
 import img1 from "./images/smoozemusic.png";
 import img2 from "./images/ecommerce.png";
-import img3 from "./images/Japa Travel.png";
+import img3 from "./images/Japa-Travel.png";
 
 export const Experience = [
   {

@@ -7,8 +7,8 @@ import {
   IoLogoWhatsapp,
 } from "react-icons/io5";
 import img1 from "./images/smoozemusic.png";
-import img2 from "./images/thumb-fullstack-socialmedia-app-react-sanity.png";
-import img3 from "./images/thumb-google-map-clone-nextjs-feb22.png";
+import img2 from "./images/ecommerce.png";
+import img3 from "./images/Bing.png";
 
 export const Experience = [
   {
@@ -46,22 +46,25 @@ export const Projects = [
     id: 1,
     name: "Smooze Music",
     imageSrc: img1,
-    techs: "ReactJs,Typescript, ContextApi, React Icon, Postgres",
-    github: "https://smooze.netlify.app/",
+    techs: "ReactJs,Typescript, ContextApi, React Icon, Firebase, Postgres",
+    github: "https://github.com/hakynbayo/Music-App",
+    link: "https://smooze.netlify.app/"
   },
   {
     id: 2,
     name: "Ecommerce App ",
     imageSrc: img2,
     techs: "React Js, Sanity, Tailwind CSS",
-    github: "https://faithy-store.netlify.app/",
+    github: "https://github.com/hakynbayo/Ecommerice-Website-in-React",
+    link: "https://faithy-store.netlify.app/"
   },
   {
     id: 3,
-    name: "Travel Advisor",
+    name: "Bing HomePage clone",
     imageSrc: img3,
-    techs: "React Js, Chakra UI, Google API",
-    github: "#",
+    techs: "HTML, CSS, Javascript",
+    github: "https://github.com/hakynbayo/Bing-Homepage",
+    link: "https://binghome-clone.netlify.app/"
   },
   
 ];
@@ -95,6 +98,6 @@ export const SocialLinks = [
       <IoLogoWhatsapp className="text-green-500 text-3xl cursor-pointer" />
     ),
     name: "Whatsapp",
-    link: "07061511468",
+    link: "https://api.whatsapp.com/send?phone=+2347061511468&text&app_absent=0"
   },
 ];

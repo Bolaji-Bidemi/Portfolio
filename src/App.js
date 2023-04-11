@@ -8,6 +8,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { Experience, Projects, SocialLinks } from "./data";
 import { IoLogoGithub, IoMenu } from "react-icons/io5";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 
 function App() {
@@ -45,10 +46,10 @@ function App() {
                 Contact
               </a>
               <a
-                href="#"
+                href="https://docs.google.com/document/d/14taLVrlH9MfhlFnyTpxSym4dTTCmrvwfNwIS4_ffY-k/edit?usp=sharing"
                 className="ml-auto text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in"
               >
-                Download
+                Resume
               </a>
             </div>
 
@@ -143,11 +144,14 @@ function App() {
                 performance for the best user experience.
               </p>
 
-              <button class="w-full md:w-auto relative mt-6 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:ring-green-200 dark:focus:ring-green-800 hover:shadow-lg hover:shadow-teal-500/50 hover:dark:shadow-lg hover:dark:shadow-teal-800/80">
+              
+              <a href="https://docs.google.com/document/d/14taLVrlH9MfhlFnyTpxSym4dTTCmrvwfNwIS4_ffY-k/edit?usp=sharing"
+                class="w-full md:w-auto relative mt-6 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:ring-green-200 dark:focus:ring-green-800 hover:shadow-lg hover:shadow-teal-500/50 hover:dark:shadow-lg hover:dark:shadow-teal-800/80">
                 <span class="w-full md:w-auto relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                  Download
+                Resume
                 </span>
-              </button>
+                </a>
+              
             </div>
           </section>
 
@@ -194,12 +198,14 @@ function App() {
                   <p className="text-lg text-textBase font-medium uppercase">
                     {n.name.length > 25 ? `${n.name.slice(0, 25)}...` : n.name}
                   </p>
-
+                
+                  <a href={n.link}>
                   <img
                     src={n.imageSrc}
                     className="w-full h-full object-cover rounded-md my-4"
-                    alt=""
+                    alt="project image"
                   />
+                  </a>
 
                   <div className="flex flex-1 items-center justify-between">
                     <p className="text-lg text-gray-300">

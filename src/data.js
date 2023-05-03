@@ -9,6 +9,7 @@ import {
 import img1 from "./images/smoozemusic.png";
 import img2 from "./images/ecommerce.png";
 import img3 from "./images/Japa-Travel.png";
+import img4 from "./images/smoozemovie.png";
 
 export const Experience = [
   {
@@ -52,6 +53,14 @@ export const Projects = [
   },
   {
     id: 2,
+    name: "Smooze Movie",
+    imageSrc: img4,
+    techs: "ReactJs,Typescript, Redux, React Icon, Firebase",
+    github: "https://github.com/hakynbayo/Smooze-movie",
+    link: "https://smooze-movie.netlify.app/"
+  },
+  {
+    id: 3,
     name: "Ecommerce App ",
     imageSrc: img2,
     techs: "React Js, Sanity, Tailwind CSS",
@@ -59,7 +68,7 @@ export const Projects = [
     link: "https://faithy-store.netlify.app/"
   },
   {
-    id: 3,
+    id: 4,
     name: "Travel Page",
     imageSrc: img3,
     techs: "HTML, CSS, Javascript",

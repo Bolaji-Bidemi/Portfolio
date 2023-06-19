@@ -1,5 +1,4 @@
-import { Spline } from "@splinetool/react-spline";
-import Akinbayo from "./images/akinbayo.JPG";
+import Bidemi from "./images/pic.png";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -8,7 +7,6 @@ import "react-vertical-timeline-component/style.min.css";
 import { Experience, Projects, SocialLinks } from "./data";
 import { IoLogoGithub, IoMenu } from "react-icons/io5";
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 
 function App() {
@@ -18,7 +16,7 @@ function App() {
       <div className="flex w-screen min-h-screen flex-col items-center justify-center relative bg-primary pb-20">
         <nav className="w-full px-6 z-50  fixed inset-x-0 top-2 flex justify-center items-center ">
           <div className=" w-full md:w-880 bg-navBar p-4 rounded-2xl flex items-center">
-            <p className="text-lg text-slate-200 font-medium">Akinbayo Akinwande</p>
+            <p className="text-lg text-slate-200 font-bold">BIDEMI BOLAJI</p>
 
             <div className="hidden md:flex items-center gap-6 ml-6 flex-1">
               <a
@@ -46,7 +44,7 @@ function App() {
                 Contact
               </a>
               <a
-                href="https://docs.google.com/document/d/14taLVrlH9MfhlFnyTpxSym4dTTCmrvwfNwIS4_ffY-k/edit?usp=sharing"
+                href="https://docs.google.com/document/d/1NB5XVK-HbktfLmDZ9w15AJ_teNP7UMxdWnJxwfap7oc/edit?usp=sharing"
                 className="ml-auto text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in"
               >
                 Resume
@@ -96,26 +94,19 @@ function App() {
                 >
                   Contact
                 </a>
-                <a
+                {/* <a
                   href="#"
                   className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in"
                   onClick={() => setIsActive(false)}
                 >
                   Download
-                </a>
+                </a> */}
               </motion.div>
             )}
           </div>
         </nav>
 
-        {/* <div className="relative" id="home">
-          <Spline scene="https://prod.spline.design/oo6IxFu8UDjFUmjD/scene.spline" />
-          <div className="absolute bottom-10 w-full flex justify-center items-center">
-            <div className="shadow-md p-4 flex items-center justify-center bg-zinc-900 rounded-3xl ">
-              <p className="text-white">Press and drag to orbit</p>
-            </div>
-          </div>
-        </div> */}
+    
 
         <main className="w-[80%] mt-4">
           <section
@@ -127,7 +118,7 @@ function App() {
             <div className="w-full h-420 flex items-center justify-center">
               <div className="w-275 h-340 relative bg-emerald-200 rounded-md">
                 <img
-                  src={Akinbayo}
+                  src={Bidemi}
                   alt=""
                   className="w-full h-full absolute -right-4 top-4 object-cover rounded-lg drop-shadow-2xl"
                 />
@@ -135,17 +126,16 @@ function App() {
             </div>
             <div className="w-full h-420 flex flex-col items-center justify-center ">
               <p className="text-lg text-textBase text-center">
-                A Proactive, smart, and driven engineer with 2 years of
-                development experience. Expertise in HTML, CSS, SASS,Typescript
-                JavaScript etc and front-end frameworks such as ReactJs for the
-                web and React Native for mobile development with knowledge
-                of UI/UX using Figma. Proficient in developing clean and
-                semantic code, ensuring accessibility, and optimizing website
-                performance for the best user experience.
+               
+                Experienced front-end developer with 3 years of expertise in creating and implementing 
+                innovative web designs, web applications, and user interfaces. Proficient in HTML, CSS3, JavaScript, 
+                Typescript, Tailwind CSS, Chakra UI, React, Redux, MobX, Node JS, Express JS. Skilled in creating 
+                responsive and mobile-friendly web pages. Demonstrated ability to work independently and as part of a team. 
+                Detail-oriented, efficient, and passionate about developing modern and engaging user experiences.
               </p>
 
               
-              <a href="https://docs.google.com/document/d/14taLVrlH9MfhlFnyTpxSym4dTTCmrvwfNwIS4_ffY-k/edit?usp=sharing"
+              <a href="https://docs.google.com/document/d/1NB5XVK-HbktfLmDZ9w15AJ_teNP7UMxdWnJxwfap7oc/edit?usp=sharing"
                 class="w-full md:w-auto relative mt-6 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:ring-green-200 dark:focus:ring-green-800 hover:shadow-lg hover:shadow-teal-500/50 hover:dark:shadow-lg hover:dark:shadow-teal-800/80">
                 <span class="w-full md:w-auto relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
                 Resume
@@ -203,7 +193,7 @@ function App() {
                   <img
                     src={n.imageSrc}
                     className="w-full h-full object-cover rounded-md my-4"
-                    alt="project image"
+                    alt="project"
                   />
                   </a>
 

@@ -1,7 +1,6 @@
 import {
   IoCodeWorking,
   IoLogoGithub,
-  IoLogoYoutube,
   IoLogoTwitter,
   IoLogoLinkedin,
   IoLogoWhatsapp,
@@ -14,30 +13,42 @@ import img4 from "./images/smoozemovie.png";
 export const Experience = [
   {
     id: 1,
-    date: "2022 - present",
+    date: "April 2022 - March 2023",
     iconsSrc: <IoCodeWorking />,
-    title: "ASSOCIATE FRONTEND DEVELOPER/DECAGON.",
+    title: "PHARMARUN AFRICA, Frontend Developer.",
     location: "LAGOS, NIGERIA",
     description:
-      "Built projects with Nodejs, React.js, Typescript, and Javascript. ",
+      `• Developed and maintained the company's website, ensuring high performance and optimal user experience
+      • Collaborated with the design team to create visually appealing and responsive web pages. 
+      • Utilize various frontend frameworks such as React to build scalable and maintainable codebase
+      • Implement frontend best practices to ensure cross-browser compatibility and accessibility 
+      • Continuously optimize website load times and user interactions `,
   },
   {
     id: 2,
-    date: "JAN 2022 - MAR 2022",
+    date: "August 2020 - March 2022",
     iconsSrc: <IoCodeWorking />,
-    title: "FRONTEND INTERN/HOPEWELL ENGINEERING COMPANY. ",
-    location: "LAGOS, NIGERIA",
+    title: "DECAGON INSTITUTE, Software Engineer. ",
+    location: "EDO, NIGERIA",
     description:
-      "Assisting with the development of webpages and web-based applications using HTML, CSS, JavaScript and React.",
+      `• Built and maintained a variety of client websites, ranging from small businesses to large corporations
+      • Worked closely with project managers and designers to create visually stunning and functional websites
+      • Utilized various frontend frameworks such as React and Chakra UI to streamline development processes
+      • Implemented frontend best practices to ensure cross-browser compatibility and accessibility
+      • Ensured optimal website performance and user experience through responsive design and efficient coding practices .`,
   },
   {
     id: 3,
-    date: " JAN 2020 - DEC 2022",
+    date: " March 2019 - March 2020",
     iconsSrc: <IoCodeWorking />,
-    title: "CUSTOMER SERVICE/GTBANK",
-    location: "LAGOS, NIGERIA",
+    title: "NYSC, Mathematics Tutor",
+    location: "BENUE, NIGERIA",
     description:
-      "Key individual to providing expert knowledge relating to products and services to new and existing clients. Providing customer services, to resolve and answer various banking questions.",
+      `• Develop and implement effective lesson plans in accordance with state and national standards.
+      • Utilize various teaching strategies to engage students and promote critical thinking skills.
+      • Assess and evaluate student progress through formative and summative assessments.
+      • Collaborate with colleagues to create interdisciplinary projects and activities.
+      • Participate in professional development activities to enhance teaching skills and knowledge.`
   },
 
 ];
@@ -48,7 +59,7 @@ export const Projects = [
     name: "Smooze Music",
     imageSrc: img1,
     techs: "ReactJs,Typescript, ContextApi, React Icon, Firebase, Postgres",
-    github: "https://github.com/hakynbayo/Music-App",
+    github: "https://github.com/Bolaji-Bidemi/Music-App",
     link: "https://smooze.netlify.app/"
   },
   {
@@ -56,7 +67,7 @@ export const Projects = [
     name: "Smooze Movie",
     imageSrc: img4,
     techs: "ReactJs,Typescript, Redux, React Icon, Firebase",
-    github: "https://github.com/hakynbayo/Smooze-movie",
+    github: "https://github.com/Bolaji-Bidemi/Smooze-movie",
     link: "https://smooze-movie.netlify.app/"
   },
   {
@@ -64,7 +75,7 @@ export const Projects = [
     name: "Ecommerce App ",
     imageSrc: img2,
     techs: "React Js, Sanity, Tailwind CSS",
-    github: "https://github.com/hakynbayo/Ecommerice-Website-in-React",
+    github: "https://github.com/Bolaji-Bidemi/Ecommerce-website",
     link: "https://faithy-store.netlify.app/"
   },
   {
@@ -72,7 +83,7 @@ export const Projects = [
     name: "Travel Page",
     imageSrc: img3,
     techs: "HTML, CSS, Javascript",
-    github: "https://github.com/hakynbayo/Travel-website",
+    github: "https://github.com/Bolaji-Bidemi/Travel-website",
     link: "https://travell-site.netlify.app/"
   },
   
@@ -83,7 +94,7 @@ export const SocialLinks = [
     id: 1,
     iconSrc: <IoLogoGithub className="text-textBase text-3xl cursor-pointer" />,
     name: "GitHub",
-    link: "https://github.com/hakynbayo?tab=repositories",
+    link: "https://github.com/Bolaji-Bidemi?tab=repositories",
   },
   {
     id: 1,
@@ -99,7 +110,7 @@ export const SocialLinks = [
       <IoLogoLinkedin className="text-blue-800 text-3xl cursor-pointer" />
     ),
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/akinwande-akinbayo-8b18a0143/",
+    link: "https://www.linkedin.com/in/bidemi-bolaji-a7682518b/",
   },
   {
     id: 1,
@@ -107,6 +118,6 @@ export const SocialLinks = [
       <IoLogoWhatsapp className="text-green-500 text-3xl cursor-pointer" />
     ),
     name: "Whatsapp",
-    link: "https://api.whatsapp.com/send?phone=+2347061511468&text&app_absent=0"
+    link: "https://wa.me/2347039770676?text="
   },
 ];

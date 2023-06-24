@@ -40,16 +40,16 @@ export const Experience = [
   },
   {
     id: 3,
-    date: " March 2019 - March 2020",
+    date: " January 2019 - March 2020",
     iconsSrc: <IoCodeWorking />,
-    title: "NYSC, Mathematics Tutor",
-    location: "BENUE, NIGERIA",
+    title: "DIFFERENCE MAKER CENTER, Software Developer",
+    location: "LAGOS, NIGERIA",
     description:
-      `• Develop and implement effective lesson plans in accordance with state and national standards.
-      • Utilize various teaching strategies to engage students and promote critical thinking skills.
-      • Assess and evaluate student progress through formative and summative assessments.
-      • Collaborate with colleagues to create interdisciplinary projects and activities.
-      • Participate in professional development activities to enhance teaching skills and knowledge.`
+    `• Built and maintained a variety of client websites, ranging from small businesses to large corporations
+    • Worked closely with project managers and designers to create visually stunning and functional websites
+    • Utilized various frontend frameworks such as React and Chakra UI to streamline development processes
+    • Implemented frontend best practices to ensure cross-browser compatibility and accessibility
+    • Ensured optimal website performance and user experience through responsive design and efficient coding practices .`
   },
 
 ];

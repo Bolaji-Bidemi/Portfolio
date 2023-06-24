@@ -94,6 +94,12 @@ function App() {
                 >
                   Contact
                 </a>
+                <a
+                href="https://docs.google.com/document/d/1NB5XVK-HbktfLmDZ9w15AJ_teNP7UMxdWnJxwfap7oc/edit?usp=sharing"
+                className="ml-auto text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in"
+              >
+                Resume
+              </a>
                 {/* <a
                   href="#"
                   className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in"
@@ -151,13 +157,13 @@ function App() {
                 Experience.map((n) => (
                   <VerticalTimelineElement
                     key={n.id}
-                    className="vertical-timeline-element--work"
+                    className="vertical-timeline-element--work text-2xl sm: text-base"
                     contentStyle={{
                       background: "rgb(21, 24, 31)",
                       color: "#888",
                     }}
                     contentArrowStyle={{
-                      borderRight: "7px solid  rgb(21, 24, 31)",
+                      borderRight: "7px solid rgb(21, 24, 31)",
                     }}
                     date={n.date}
                     iconStyle={{ background: "rgb(21, 24, 31)", color: "#888" }}
@@ -169,7 +175,7 @@ function App() {
                     <h4 className="vertical-timeline-element-subtitle">
                       {n.location}
                     </h4>
-                    <p>{n.description}</p>
+                    <p className="text-2xl sm: text-base">{n.description}</p>
                   </VerticalTimelineElement>
                 ))}
             </VerticalTimeline>

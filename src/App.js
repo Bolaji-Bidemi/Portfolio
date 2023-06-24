@@ -145,12 +145,6 @@ function App() {
             </div>
           </section>
 
-          <section>
-            <div>
-              <h4>About</h4>           
-            </div>
-          </section>
-
           <section className="w-full flex items-center justify-center">
             <VerticalTimeline>
               {Experience &&

@@ -1,4 +1,4 @@
-import Bidemi from "./images/pic.png";
+import Bidemi from "./images/bbx.png";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -111,7 +111,7 @@ function App() {
         <main className="w-[80%] mt-4">
           <section
             className="w-full grid grid-cols-1 md:grid-cols-2 gap-4 my-24"
-            id="about"
+            
           >
             
             
@@ -124,8 +124,8 @@ function App() {
                 />
               </div>
             </div>
-            <div className="w-full h-420 flex flex-col items-center justify-center ">
-              <p className="text-lg text-textBase text-center">
+            <div className="w-full h-420 flex flex-col items-center justify-center">
+              <p className="text-lg text-textBase text-center " id="about">
                
                 Experienced front-end developer with 3 years of expertise in creating and implementing 
                 innovative web designs, web applications, and user interfaces. Proficient in HTML, CSS3, JavaScript, 
@@ -136,12 +136,18 @@ function App() {
 
               
               <a href="https://docs.google.com/document/d/1NB5XVK-HbktfLmDZ9w15AJ_teNP7UMxdWnJxwfap7oc/edit?usp=sharing"
-                class="w-full md:w-auto relative mt-6 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:ring-green-200 dark:focus:ring-green-800 hover:shadow-lg hover:shadow-teal-500/50 hover:dark:shadow-lg hover:dark:shadow-teal-800/80">
-                <span class="w-full md:w-auto relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                className="w-full md:w-auto relative mt-6 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:ring-green-200 dark:focus:ring-green-800 hover:shadow-lg hover:shadow-teal-500/50 hover:dark:shadow-lg hover:dark:shadow-teal-800/80">
+                <span className="w-full md:w-auto relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
                 Resume
                 </span>
                 </a>
               
+            </div>
+          </section>
+
+          <section>
+            <div>
+              <h4>About</h4>           
             </div>
           </section>
 
@@ -218,7 +224,7 @@ function App() {
             id="contacts"
             className="flex flex-col items-center justify-evenly w-full my-24"
           >
-            <p className="text-2xl text-gray-400 capitalize">Follow me on</p>
+            <p className="text-2xl text-gray-400 capitalize">Social Media</p>
             <div className="flex items-center justify-evenly w-full my-4 flex-wrap gap-4">
               {SocialLinks &&
                 SocialLinks.map((n) => (

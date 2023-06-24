@@ -9,6 +9,7 @@ import img1 from "./images/smoozemusic.png";
 import img2 from "./images/ecommerce.png";
 import img3 from "./images/Japa-Travel.png";
 import img4 from "./images/smoozemovie.png";
+import swift from "./images/swift.png"
 
 export const Experience = [
   {
@@ -56,6 +57,15 @@ export const Experience = [
 export const Projects = [
   {
     id: 1,
+    name: "Swift Rider",
+    imageSrc: swift,
+    techs: "NodeJS, Typescript, ExpressJS, Postgres and React",
+    github: "",
+    link: "https://swift-rider.netlify.com/ "
+
+  },
+  {
+    id: 2,
     name: "Smooze Music",
     imageSrc: img1,
     techs: "ReactJs,Typescript, ContextApi, React Icon, Firebase, Postgres",
@@ -63,7 +73,7 @@ export const Projects = [
     link: "https://smooze.netlify.app/"
   },
   {
-    id: 2,
+    id: 3,
     name: "Smooze Movie",
     imageSrc: img4,
     techs: "ReactJs,Typescript, Redux, React Icon, Firebase",
@@ -71,7 +81,7 @@ export const Projects = [
     link: "https://smooze-movie.netlify.app/"
   },
   {
-    id: 3,
+    id: 4,
     name: "Ecommerce App ",
     imageSrc: img2,
     techs: "React Js, Sanity, Tailwind CSS",
@@ -79,14 +89,13 @@ export const Projects = [
     link: "https://faithy-store.netlify.app/"
   },
   {
-    id: 4,
+    id: 5,
     name: "Travel Page",
     imageSrc: img3,
     techs: "HTML, CSS, Javascript",
     github: "https://github.com/Bolaji-Bidemi/Travel-website",
     link: "https://travell-site.netlify.app/"
   },
-  
 ];
 
 export const SocialLinks = [
